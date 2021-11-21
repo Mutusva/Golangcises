@@ -10,7 +10,7 @@ func Valid(num string) bool {
 		// fmt.Printf("char = %v type = %T\n", char, char)
 		if char == ' ' {
 			continue
-		}
+		}     
 		if char < 48 || char > 57 {
 			return false
 		}
