@@ -1,5 +1,7 @@
 package algorithms
 
+import "fmt"
+
 func bitshift() {
    s := "056"
    d := int(s[1] - 48)
